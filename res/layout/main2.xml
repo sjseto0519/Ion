@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+<ImageView android:id="@+id/ImageView01"
+android:src="@drawable/ion_logo1"
+android:layout_gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/tableLayout1"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"   >  
+    <TableRow  
+        android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:text=""  
+            android:layout_span="2"
+            android:gravity="center" >
+            </TextView>  
+    </TableRow>  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content">  
+<ImageView android:id="@+id/ImageView02"
+android:src="@drawable/startflag2"/>
+        <EditText  
+            android:text="Start"  
+            android:id="@+id/edittextView2"  
+            android:layout_width="200dip"
+            android:textStyle="bold"></EditText>   
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/tableRow2"  
+        android:layout_width="wrap_content">  
+<ImageView android:id="@+id/ImageView02"
+android:src="@drawable/endflag2"/>  
+        <EditText  
+            android:text="End"  
+            android:layout_width="200dip"
+            android:id="@+id/edittextView3"  
+            android:textStyle="bold"></EditText> 
+    </TableRow>  
+ 
+</TableLayout> 
+
+
+
+</LinearLayout>

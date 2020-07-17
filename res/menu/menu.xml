@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/icontext1"
+        android:title="Scan QR Code"
+        android:icon="@drawable/qrcodeicon1" />
+        <item android:id="@+id/icontext2"
+        android:title="Settings"
+        android:icon="@drawable/settingsicon1" />
+        <item android:id="@+id/icontext3"
+        android:title="About"
+        android:icon="@drawable/abouticon1" />
+        <item android:id="@+id/icontext4"
+        android:title="Testing"
+        android:icon="@drawable/icon2" />
+</menu>

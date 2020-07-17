@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About Layout -->
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/item_scroll"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:padding="10dip">
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear_info"
+		    style="@style/layout_about_vertical">
+		    
+       		
+	       		<TextView
+	       		    android:id="@+id/item_title"
+	       		   android:layout_width="fill_parent"
+			  		android:layout_height="wrap_content"
+	       		    android:text="@string/hello" />
+       			
+	       		<TextView
+					android:id="@+id/item_snippet"
+					android:layout_width="fill_parent"
+			  		android:layout_height="wrap_content"
+					android:text="@string/hello" />
+	       		
+	       		<TextView
+	       			android:id="@+id/item_group"
+	       		    android:layout_width="fill_parent"
+			  		android:layout_height="wrap_content"
+	       		    android:text="@string/hello" />
+       		
+       			<ImageView
+	       		    android:id="@+id/item_image"
+			  		android:layout_width="fill_parent"
+			  		android:layout_height="200px" />
+	
+	       		<TextView
+	       		    android:id="@+id/item_description"
+			  		android:layout_width="fill_parent"
+			  		android:layout_height="wrap_content"
+			  		android:text="@string/hello"
+			  	/>
+	       		<TextView
+	       		    android:id="@+id/item_website"
+			  		android:layout_width="fill_parent"
+			  		android:layout_height="wrap_content"
+			  		android:text="@string/hello"
+			  	/>       		
+       
+	</LinearLayout>
+</ScrollView>

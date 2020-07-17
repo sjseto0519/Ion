@@ -1,0 +1,2 @@
+ODU|Old Dominion University|1|36.885472|-76.305147|URL map|marker|Old Dominion University|Norfolk, VA|http://scott-seto.com/appdoublescreen/Images/ODU_Logo.jpg|http://www.odu.edu|http://scott-seto.com/appdoublescreen/Plans/odu_plan.txt|14|
+Norfolk|City of Virginia|0|36.850694|-76.285797|URL map|marker|City famous for its Naval Base|VA|http://scott-seto.com/appdoublescreen/Images/Norfolk.jpg|http://www.norfolk.gov|URL plan|14|

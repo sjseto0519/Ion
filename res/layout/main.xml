@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+<ImageView android:id="@+id/ImageView01"
+android:src="@drawable/ion_logo1"
+android:layout_gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/tableLayout1"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"   >  
+    <TableRow  
+        android:id="@+id/tableRow4"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:text=""  
+            android:layout_span="3"
+            android:gravity="center" >
+            </TextView>  
+    </TableRow>  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"
+        >  
+<ImageView android:id="@+id/ImageView02"
+android:gravity="center"
+android:layout_width="match_parent"
+android:src="@drawable/directionsicon"
+android:onClick="directionshandler"
+/>
+<ImageView android:id="@+id/ImageView03"
+android:gravity="center"
+android:layout_width="match_parent"
+android:onClick="campushandler"
+android:src="@drawable/campusicon"
+/>
+<ImageView android:id="@+id/ImageView04"
+android:gravity="center"
+android:layout_width="match_parent"
+android:onClick="indoorhandler"
+android:src="@drawable/floorplanicon1"
+/>
+    </TableRow>  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"
+        >  
+        <TextView  
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:text="Get\nDirections" 
+            android:onClick="directionshandler" 
+            android:clickable="true"
+            android:gravity="center" >
+            </TextView>  
+             <TextView  
+            android:id="@+id/textView10"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:onClick="campushandler"
+            android:clickable="true"
+            android:text="Navigate\nCampus"  
+            android:gravity="center" >
+            </TextView>  
+              <TextView  
+            android:id="@+id/textView11"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:onClick="indoorhandler"
+            android:clickable="true"
+            android:textSize="20dp"  
+            android:text="Navigate\nIndoors"  
+            android:gravity="center" >
+            </TextView>  
+    </TableRow> 
+
+ 
+</TableLayout> 
+
+
+
+</LinearLayout>

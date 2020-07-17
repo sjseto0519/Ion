@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content">
+ 
+ <LinearLayout android:id="@+id/roomlayout1"  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >  
+      <ListView android:id="@+id/roomlistview1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />      
+  </LinearLayout>
+ 
+ <Button android:id="@+id/roomlayoutbutton" android:layout_below="@id/roomlayout1"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true" android:text="Cancel" />
+ 
+</RelativeLayout>

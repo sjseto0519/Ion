@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content">
+ 
+
+ 
+
+ 
+ <LinearLayout android:id="@+id/layout9"  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <ImageView android:id="@+id/ImageView01"
+ android:layout_width="fill_parent" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true" />
+  
+   <LinearLayout android:id="@+id/layout9"  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    >
+  
+         <RelativeLayout android:id="@+id/layout9"  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+
+    >
+    
+         <TextView 
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Step Length (in)"/>
+        
+    
+         <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text1"
+        android:prompt="@string/steplength_prompt"/>
+        
+        </RelativeLayout>
+    </LinearLayout>
+            
+  </LinearLayout>
+ 
+ <Button android:id="@+id/Button01" android:layout_below="@id/layout9"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true" android:text="Cancel" />
+ 
+</RelativeLayout>

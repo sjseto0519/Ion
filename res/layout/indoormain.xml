@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/absoluteLayout1"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+ 
+    
+    <TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/tableLayout1"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"
+    android:layout_x="0dip"
+    android:layout_y="275dip"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"   >  
+    <TableRow  
+        android:id="@+id/tableRow4"  
+        android:layout_height="30dip"  
+        android:layout_width="match_parent"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:text=""  
+            android:textColor="#000000"
+            android:layout_span="3"
+            android:gravity="center" >
+            </TextView>  
+    </TableRow>  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"
+        >  
+<ImageView android:id="@+id/ImageView02"
+android:gravity="center"
+android:layout_width="match_parent"
+android:src="@drawable/elevator"
+android:onClick="changeFloor"
+/>
+<ImageView android:id="@+id/ImageView03"
+android:gravity="center"
+android:layout_width="match_parent"
+android:onClick="drawPathToRoom2"
+android:src="@drawable/door"
+/>
+<ImageView android:id="@+id/ImageView03"
+android:gravity="center"
+android:layout_width="match_parent"
+android:onClick="goToRoom"
+android:src="@drawable/stairs"
+/>
+<ImageView android:id="@+id/ImageView05"
+android:gravity="center"
+android:layout_width="match_parent"
+android:onClick="goOutside"
+android:src="@drawable/exit"
+/>
+    </TableRow>  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="match_parent"
+        >  
+        <TextView  
+            android:id="@+id/textView9"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:text="Change\nFloor" 
+            android:onClick="changeFloor" 
+            android:textColor="#000000"
+            android:clickable="true"
+            android:gravity="center" >
+            </TextView>  
+             <TextView  
+            android:id="@+id/textView10"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:textColor="#000000"
+            android:onClick="drawPathToRoom2"
+            android:clickable="true"
+            android:text="Go To\nRoom"  
+            android:gravity="center" >
+            </TextView>  
+             <TextView  
+            android:id="@+id/textView10"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textSize="18dp"  
+            android:textColor="#000000"
+            android:onClick="goToRoom"
+            android:clickable="true"
+            android:text="Draw\nPath"  
+            android:gravity="center" >
+            </TextView>  
+                      <TextView  
+            android:id="@+id/textView11"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:typeface="serif"  
+            android:textColor="#000000"
+            android:onClick="goOutside"
+            android:clickable="true"
+            android:textSize="20dp"  
+            android:text="Go\nOutside"  
+            android:gravity="center" >
+            </TextView>  
+    </TableRow> 
+
+ 
+</TableLayout> 
+
+
+
+     <odu.cs.ion.map.IonView
+	android:id="@+id/ionview"
+    android:layout_width="fill_parent"
+    android:layout_height="265dip"
+    android:layout_x="0dip"
+    android:layout_y="0dip"
+    />
+    
+
+
+	</AbsoluteLayout>
+	

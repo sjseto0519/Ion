@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content">
+ 
+<ImageView android:id="@+id/ImageView01"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true" />
+ 
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/tableLayout1"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"   >  
+    <TableRow  
+        android:id="@+id/tableRow1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content">  
+<ImageView android:id="@+id/ImageView02"
+android:src="@drawable/startflag2"/>
+        <EditText  
+            android:hint="Start"  
+            android:id="@+id/startaddresstext"  
+            android:layout_width="200dip"
+            android:textStyle="bold"></EditText>   
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/tableRow2"  
+        android:layout_width="wrap_content">  
+<ImageView android:id="@+id/ImageView02"
+android:src="@drawable/endflag2"/>  
+        <EditText  
+            android:hint="End"  
+            android:layout_width="200dip"
+            android:id="@+id/endaddresstext"  
+            android:textStyle="bold"></EditText> 
+    </TableRow> 
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/tableRow2"  
+        android:layout_width="wrap_content">  
+        <Button  
+            android:layout_width="100dip"
+            android:text="Go"
+            android:id="@+id/buttonclickview3"  
+            android:textStyle="bold"></Button> 
+    </TableRow>   
+ 
+</TableLayout> 
+ 
+ <Button android:id="@+id/Button01" android:layout_below="@id/tableLayout1"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:layout_centerHorizontal="true" android:text="Cancel" />
+ 
+</RelativeLayout>
